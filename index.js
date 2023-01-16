@@ -64,7 +64,7 @@ printExponentialValues(2, 5);
 // Write your code here ↓↓↓↓ //
 
 
-fruit="Banana";
+let fruit="Banana";
 
 function printFavoriteFruit(){
 let newFruit="Orange";
@@ -82,12 +82,12 @@ printFavoriteFruit();
 // Write your code here ↓↓↓↓ //
 
 function exponent(zahl1, zahl2){
-    let result=zahl1;
-        for (let i=1; i<=zahl2; i++){
-            result=result*zahl1;
-    
+    let result=0;
+        for (let i=1; i<zahl2; i++){
+         result=Math.pow(zahl1, i);
+    console.log(result);
         }
-        console.log(result);
+        
     }
     
     
